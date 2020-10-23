@@ -12,7 +12,7 @@ pool:
 resources:
   pipelines:
   - pipeline: InstallWebApp
-    source: cyanez.AspNetRealiseTest
+    source: 'cyanez.Employee'
     trigger:
       branches:
         include:
