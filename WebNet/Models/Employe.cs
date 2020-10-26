@@ -1,16 +1,15 @@
 ﻿using System;
-
+using EmployeeFrameWork;
 
 namespace WebNet.Models {
   public class Employe {
-    private string name;
-    public string Name {
-      get => name;
-      set => name = value;
-    }
+    EmployeeFrameWork.Employee employee = new EmployeeFrameWork.Employee();
+        
+    public string SayHello(string name) {
 
-    public string SayHello() {
-      return $"hello {name}";
+      employee.Name = name;
+      return employee.SayHello();
+      
     }
   }
 }
