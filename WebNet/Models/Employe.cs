@@ -3,7 +3,7 @@ using EmployeeFrameWork;
 
 namespace WebNet.Models {
   public class Employe {
-    EmployeeFrameWork.Employee employee = new EmployeeFrameWork.Employee();
+   Employee employee = new Employee();
         
     public string SayHello(string name) {
 
