@@ -45,8 +45,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EmployeeFrameWork">
-      <HintPath>..\..\EmployeeFrameWork\EmployeeFrameWork\bin\Debug\netstandard2.0\EmployeeFrameWork.dll</HintPath>
+    <Reference Include="EmployeeFrameWork, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\EmployeeFrameWork\EmployeeFrameWork\obj\Debug\net471\EmployeeFrameWork.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
